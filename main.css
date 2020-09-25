@@ -4,4 +4,16 @@
 
 #header {
     color: white;
+    background-image: url("Images/header.jpg");
+    /* view height, sets a % */
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 576px) {
+    #header{
+        padding: 0 100px;
+        
+    }
 }
